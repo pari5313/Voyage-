@@ -18,6 +18,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+.rotate {
+  display: inline-block; 
+  transition: transform 0.3s ease; 
+
+}
+
+.rotate:hover {
+  transform: rotateY(180deg); 
+  
+  
+}
 
 .section__container {
  
